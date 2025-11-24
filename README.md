@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-Comprehensive unit economics and profitability analysis for India's quick commerce sector (10-minute grocery delivery), combining real industry data with advanced financial modeling techniques.
+Comprehensive unit economics and profitability analysis for India's quick commerce sector (10-minute grocery delivery). This project demonstrates financial modeling, market analysis, and strategic thinking to answer critical business questions about market viability and profitability timelines.
 
 ### Business Problem
 
@@ -11,7 +11,7 @@ Quick commerce in India has seen explosive growth (₹6.1B → ₹18.3B by 2028,
 - Market leaders burning cash on every delivery
 - **Key question**: Can they achieve profitability? When? What's the path?
 
-This analysis provides data-driven answers through comprehensive financial modeling and scenario analysis.
+This analysis provides data-driven answers through comprehensive financial modeling and scenario analysis, using publicly available industry data and market research.
 
 ---
 
@@ -45,33 +45,35 @@ This analysis provides data-driven answers through comprehensive financial model
 
 ## 🎯 Methodology
 
-### 1. Data Integration
-- **Primary Source**: Perplexity Labs analysis (November 2025)
-- **Industry Reports**: Tracxn, CBInsights, company filings (FY24-25)
-- **Competitive Data**: Blinkit Q1 FY25 results, Zepto FY25 estimates
+### 1. Data Collection & Integration
+- Market projections from industry reports (Tracxn, CBInsights, IAMAI)
+- Competitive landscape analysis (Blinkit, Zepto, Swiggy Instamart)
+- Unit economics benchmarks from company filings and earnings calls
+- FY24-25 financial data from public company announcements
 
 ### 2. Financial Modeling
 - Built custom unit economics calculator
 - P&L breakdown per order (13 cost components)
 - Break-even analysis across AOV scenarios
 - Three profitability scenarios (Conservative, Base, Optimistic)
+- Store-level profitability modeling
 
-### 3. Monte Carlo Simulation (Advanced)
-- **10,000 scenarios** testing various assumptions
+### 3. Advanced Analytics
+- **Monte Carlo Simulation**: 10,000 scenarios testing various assumptions
 - Varied AOV, delivery cost, CAC, order frequency
 - Probability distribution of profitability outcomes
-- **Result**: 45-50% of scenarios profitable under current trajectory
+- Risk quantification and upside/downside analysis
 
-### 4. City-Wise Analysis
+### 4. Geographic Analysis
 - Store-level economics for 5 major cities
 - Dark store profitability modeling
-- Special focus on **Pune** (medium-density market)
-- Tier-1 vs Tier-2 city dynamics
+- City-tier comparison (Tier-1 vs Tier-2)
+- Special focus on Pune market dynamics
 
 ### 5. Competitive Benchmarking
-- Blinkit vs Zepto vs Swiggy Instamart
-- AOV, market share, growth rates comparison
-- Strategic positioning analysis
+- Blinkit vs Zepto vs Swiggy Instamart comparison
+- AOV, market share, growth rates analysis
+- Strategic positioning and efficiency metrics
 
 ---
 
@@ -86,7 +88,7 @@ This analysis provides data-driven answers through comprehensive financial model
   - Premium product bundles (₹599+ baskets)
   - Cross-sell non-grocery items (health, home care)
   - Minimum order thresholds with incentives
-  - Subscription programs (Zepto Pass model)
+  - Subscription programs
 
 #### **Lever 2: Reduce CAC** (HIGH IMPACT)
 - **Current**: ₹300 → **Target**: ₹240 by 2026
@@ -103,7 +105,7 @@ This analysis provides data-driven answers through comprehensive financial model
 - **Tactics**:
   - Dark store location optimization (2-3 km radius)
   - Automated picking & packing systems
-  - AI-based rider route optimization
+  - Route optimization using AI/ML
   - Density improvements
 
 #### **Lever 4: Improve Gross Margin** (MEDIUM IMPACT)
@@ -134,7 +136,7 @@ This analysis provides data-driven answers through comprehensive financial model
 - **Strategy**: Increase order density, improve AOV
 - **Timeline**: Profitability by Q2-Q4 2027
 
-### Pune-Specific Insights (My Home City)
+### Pune-Specific Analysis (My Home City)
 - **Current Daily Orders**: 280
 - **Breakeven Orders**: 315 (gap: 35 orders/day)
 - **Recommendation**: Focus on premium areas (Koregaon Park, Baner, Viman Nagar)
@@ -156,7 +158,7 @@ This analysis provides data-driven answers through comprehensive financial model
 - **10th Percentile**: ₹-45 (downside risk)
 - **90th Percentile**: ₹+35 (upside potential)
 
-**Interpretation**: Path to profitability exists but requires disciplined execution on all 4 levers simultaneously. Success not guaranteed but achievable.
+**Interpretation**: Path to profitability exists but requires disciplined execution on all 4 levers simultaneously. Success achievable but not guaranteed without operational excellence.
 
 ---
 
@@ -165,9 +167,9 @@ This analysis provides data-driven answers through comprehensive financial model
 - **Python 3.11+**: Core analysis language
 - **Pandas**: Data manipulation and analysis
 - **NumPy**: Numerical computations, Monte Carlo simulation
-- **Matplotlib & Seaborn**: Data visualization (4 charts)
+- **Matplotlib & Seaborn**: Data visualization (4 interactive charts)
 - **SciPy**: Statistical analysis
-- **Jupyter Notebook**: Interactive development and documentation
+- **Jupyter Notebook**: Interactive development and reproducible analysis
 
 ---
 
@@ -253,10 +255,10 @@ jupyter notebook Quick_Commerce_Profitability_Analysis.ipynb
 
 ### What Makes This Analysis Unique
 
-1. **Hybrid Approach**: Combined Perplexity Labs real-time data with custom financial modeling
+1. **End-to-End Approach**: From market research to actionable recommendations
 2. **Advanced Techniques**: Monte Carlo simulation (rare in fresher portfolios)
 3. **Business Context**: Not just numbers—strategic recommendations for profitability
-4. **Local Insights**: Pune-specific analysis (personal connection)
+4. **Local Insights**: Pune-specific analysis (personal geographic knowledge)
 5. **Consulting-Grade**: Structured like McKinsey/BCG case study
 
 ### Why This Project Matters
@@ -265,7 +267,7 @@ jupyter notebook Quick_Commerce_Profitability_Analysis.ipynb
 - **Complexity**: Multi-variable financial modeling
 - **Real-World**: Used actual FY24-25 company data
 - **Actionable**: Clear 4-lever roadmap for profitability
-- **Validated**: Blinkit profitability proves business model
+- **Validated**: Blinkit profitability proves business model viability
 
 ---
 
@@ -275,22 +277,12 @@ jupyter notebook Quick_Commerce_Profitability_Analysis.ipynb
 Data Analyst | Python, SQL, Power BI  
 📧 abhi219010@gmail.com  
 💼 [LinkedIn](https://linkedin.com/in/abhishekjakhar)  
-📊 [GitHub Portfolio](https://github.com/YOUR-USERNAME/Data-Analytics-Portfolio)
-
+📊 [GitHub Portfolio]https://github.com/Abhishek-022/Data-Analytics-Portfolio
 ---
 
 ## 📜 License
 
 This project is for educational and portfolio purposes.
-
----
-
-## 🙏 Acknowledgments
-
-- **Data Source**: Perplexity Labs (November 2025)
-- **Industry Reports**: Tracxn, CBInsights, company earnings calls
-- **Inspiration**: McKinsey Forward Program learnings
-- **Validation**: Blinkit Q1 FY25 profitability announcement
 
 ---
 
