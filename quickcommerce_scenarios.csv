@@ -1,0 +1,4 @@
+Scenario,AOV,CM1,CM3,Status,Timeline
+Conservative,550,40.0,12.0,✅ Profitable,Q4 2027
+Base Case,620,73.0,53.0,✅ Profitable,Q4 2026
+Optimistic,720,123.0,110.0,✅ Profitable,Q2 2026
